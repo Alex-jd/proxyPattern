@@ -46,6 +46,7 @@ public class ImageIconNULL implements State{
 						imageProxy.setState(imageProxy.getImageIconExistState());
 						c.repaint();
 					} catch (Exception e) {
+						imageProxy.setState(imageProxy.getImageIconNullState());
 						e.printStackTrace();
 					}
 				}
